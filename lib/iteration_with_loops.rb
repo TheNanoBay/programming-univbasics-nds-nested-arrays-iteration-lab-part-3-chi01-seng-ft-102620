@@ -1,6 +1,6 @@
 def join_nested_strings(src)
   count = 0 
-  
+  string_array = "" 
   
   while count < src.length do
     
