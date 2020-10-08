@@ -11,6 +11,8 @@ def join_nested_strings(src)
       if src[count][inner_count].class == String   
         
         string_array = string_array + src[count][inner_count]
+        
+        puts string_array
       
       end    
     
