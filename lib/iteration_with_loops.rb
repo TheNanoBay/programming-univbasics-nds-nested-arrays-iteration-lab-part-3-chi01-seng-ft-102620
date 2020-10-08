@@ -8,7 +8,7 @@ def join_nested_strings(src)
     
     while inner_count < src[count].length do
       
-      if src[count][inner_count] == Str  
+      if src[count][inner_count].class === String   
         
         string_array = string_array + src[count][inner_count]
       
